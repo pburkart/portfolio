@@ -4,7 +4,7 @@
 ?>
 	<div class="container">
 			<div class='login-container'>
-				<form method="POST" class='login-form' action='login-action.php'>
+				<form method="POST" class='login-form' action='actions/login-action.php'>
 					<label for='username'>Username</label>
 					<input type='text' id='username' name='username' placeholder=' Username'>
 

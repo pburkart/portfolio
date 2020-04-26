@@ -216,9 +216,20 @@ button:focus {
 	width: 150px;
 	height: 150px;
 	margin: 10px;
+	text-align: center;
 }
 
-input[type=text], input[type=password], select, textarea {
+.portfolio-item img{
+		width: 150px;
+		height: 150px;
+		border: 1px solid #333;
+}
+
+.item-title {
+
+}
+
+input[type=text], input[type=password], input[type='date'], input[type='file'], select, textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -257,6 +268,32 @@ footer {
 	margin-top: 3em;
 }
 
-.logout {
-	
+.header {
+	text-align: center;
+}
+
+.app_description {
+
+}
+
+.app_description img {
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.view-project {
+	display: block;
+	margin-top: 2em;
+}
+
+.view-project{
+	text-decoration: none;
+	text-align: center;
+}
+
+.tags {
+	margin-left: 14em;
 }
