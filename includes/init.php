@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	$mysqli = mysqli_connect("127.0.0.1", "projects", "password1", "projects");
 
 	if(!$mysqli){

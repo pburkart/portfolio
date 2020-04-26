@@ -8,7 +8,7 @@
   <?php
     if(isset($_SESSION['username'])) {
       echo "			<div class='portfolio-item'>\n";
-      echo "          <a href=''#''><img src='img/add-item.png'/></a>\n";
+      echo "          <a href='add_project.php'><img src='img/add-item.png'/></a>\n";
       echo "			</div>";
     } else {
       echo "<h3 class='noProjects'>No projects have been added yet</h3>\n";

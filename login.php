@@ -1,8 +1,6 @@
 <?php
 	require('includes/init.php');
 	include('includes/sidebar.php');
-
-	session_start();
 ?>
 	<div class="container">
 			<div class='login-container'>
