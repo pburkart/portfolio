@@ -19,7 +19,7 @@
 				<img src="img/portrait.jpg" alt="User">
 			</div>
 			<ul>
-				<li><a href="about.php">About</a></li>
+				<li><a href="index.php">About</a></li>
 				<li><a href="portfolio.php">Portfolio</a></li>
 				<li><a href="contact.php">Contact</a></li>
 				<?php

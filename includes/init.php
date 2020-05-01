@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$mysqli = mysqli_connect("127.0.0.1", "projects", "password1", "projects");
+	$mysqli = mysqli_connect("localhost", "projects", "eZo[XaAAv03&", "portfolio_items");
 
 	if(!$mysqli){
 		echo "Error: Unable to connect to MySQL." . PHP_EOL;

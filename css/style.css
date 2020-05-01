@@ -15,6 +15,8 @@ body {
 	color: white;
 	font-family: 'Lato', 'sans-serif';
 	margin: 0;
+	margin-left: 300px;
+	text-align: center;
 	transition: transform 0.3s ease;
 }
 
@@ -102,6 +104,10 @@ button:focus {
 	outline: none;
 }
 
+p {
+    text-align: left;
+}
+
 .toggle {
 	background-color: rgba(0,0,0,0.3);
 	position: absolute;
@@ -120,66 +126,7 @@ button:focus {
 	margin-top: 3em;
 	max-width: 100%;
 	width: 800px;
-	margin-left: 400px;
 	font-size: 15px;
-}
-
-.modal-container {
-	background-color: rgba(0,0,0,0.6);
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-.modal-container.show-modal {
-	display: block;
-}
-
-.modal {
-	background-color: white;
-	border-radius: 5px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 100%;
-	width: 400px;
-	animation-name: modalopen;
-	animation-duration: var(--modal-duration);
-}
-
-.modal-header {
-	background-color: var(--primary-color);
-	color: white;
-	padding: 15px;
-	border-bottom: 1px solid #333;
-}
-
-.modal-header h3{
-	margin: 0;
-}
-
-.modal-content {
-	padding: 20px;
-}
-
-.modal-form div {
-	margin: 15px 0;
-}
-
-.modal-form label {
-	display: block;
-	margin-bottom: 5px;
-}
-
-.modal-form .form-input {
-	padding: 8px;
-	width: 100%;
 }
 
 .close-btn {
@@ -193,7 +140,6 @@ button:focus {
 .article-container {
 	border: 1px solid #999;
 	padding: 10px;
-	margin: 10px 0;
 }
 
 .article-image {
@@ -242,8 +188,8 @@ input[type=text], input[type=password], input[type='date'], input[type='file'], 
 
 footer {
 	text-align: center;
-	margin-left: 300px;
 	margin-bottom: 10px;
+	margin-top: 40px;
 }
 
 @keyframes modalopen {
@@ -270,6 +216,7 @@ footer {
 
 .header {
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .app_description {
@@ -296,4 +243,13 @@ footer {
 
 .tags {
 	margin-left: 14em;
+}
+
+.subheader {
+    margin-top: 50px;
+}
+
+.skills {
+    text-align: left;
+    margin-bottom: 40px;
 }
